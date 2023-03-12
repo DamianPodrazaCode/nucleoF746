@@ -32,9 +32,6 @@ uint16_t src[buffSize] = { 0x00, 0x01, 0x02, 0x03, 0x04, 0x05, 0x06, 0x07, 0x08,
 void setup() {
 }
 
-bool fAddr = true;
-volatile uint32_t lcdAddr;
-
 void loop() {
 //	for (int i = 0; i < buffSize; i++) {
 //		LCD_CMD = src[i]; // DC = 0
