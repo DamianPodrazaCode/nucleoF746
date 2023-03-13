@@ -2,6 +2,8 @@
 #define LOOP_H_
 
 #include "main.h"
+#include "fmc.h"
+#include "dma.h"
 
 void setup();
 void loop();

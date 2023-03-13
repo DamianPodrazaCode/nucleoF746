@@ -4,8 +4,8 @@
 //jeszcze należy zmienić ustawienia w CubeMX,
 // * Connectivity->FMC->Data = 8 lub 16 bit
 // * System Core->DMA->MEMTOMEM->Data width = Byte lub Half Word
-#define FMC_LCD_8bit
-//#define FMC_LCD_16bit
+//#define FMC_LCD_8bit
+#define FMC_LCD_16bit
 
 #ifdef FMC_LCD_8bit
 
