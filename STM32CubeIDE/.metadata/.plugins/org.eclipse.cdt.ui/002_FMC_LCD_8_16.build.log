@@ -1,17 +1,17 @@
-23:55:49 **** Incremental Build of configuration Debug for project 002_FMC_LCD_8_16 ****
+20:06:53 **** Incremental Build of configuration Debug for project 002_FMC_LCD_8_16 ****
 make -j12 all 
-arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F746xx -c -I../Core/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F7_V1.17.0/Drivers/STM32F7xx_HAL_Driver/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F7_V1.17.0/Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -ID:/050_STM32/Repository/STM32Cube_FW_F7_V1.17.0/Drivers/CMSIS/Device/ST/STM32F7xx/Include -ID:/050_STM32/Repository/STM32Cube_FW_F7_V1.17.0/Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc "../loop/loop.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F746xx -c -I../Core/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F7_V1.17.0/Drivers/STM32F7xx_HAL_Driver/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F7_V1.17.0/Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -ID:/050_STM32/Repository/STM32Cube_FW_F7_V1.17.0/Drivers/CMSIS/Device/ST/STM32F7xx/Include -ID:/050_STM32/Repository/STM32Cube_FW_F7_V1.17.0/Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"loop/loop.d" -MT"loop/loop.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "loop/loop.o"
 arm-none-eabi-gcc -o "002_FMC_LCD_8_16.elf" @"objects.list"   -mcpu=cortex-m7 -T"D:\__GitHub\nucleoF746\STM32CubeIDE\002_FMC_LCD_8_16\STM32F746ZGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="002_FMC_LCD_8_16.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
 Finished building target: 002_FMC_LCD_8_16.elf
  
 arm-none-eabi-size   002_FMC_LCD_8_16.elf 
 arm-none-eabi-objdump -h -S  002_FMC_LCD_8_16.elf  > "002_FMC_LCD_8_16.list"
    text	   data	    bss	    dec	    hex	filename
-   8072	     40	   1656	   9768	   2628	002_FMC_LCD_8_16.elf
+   7924	     52	   1652	   9628	   259c	002_FMC_LCD_8_16.elf
 Finished building: default.size.stdout
  
 Finished building: 002_FMC_LCD_8_16.list
  
 
-23:55:50 Build Finished. 0 errors, 0 warnings. (took 534ms)
+20:06:53 Build Finished. 0 errors, 0 warnings. (took 533ms)
 

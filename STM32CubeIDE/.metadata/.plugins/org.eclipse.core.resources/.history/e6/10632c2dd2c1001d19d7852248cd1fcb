@@ -51,4 +51,13 @@ void loop() {
 	__NOP();
 	__NOP();
 	__NOP();
+
+//	if (fAddr) {
+//		lcdAddr = ADDR_CMD;
+//		fAddr = false;
+//	} else {
+//		lcdAddr = ADDR_RAM;
+//		fAddr = true;
+//	}
+//	HAL_SRAM_Write_8b(&hsram1, (uint32_t*)lcdAddr, src, buffSize);
 }

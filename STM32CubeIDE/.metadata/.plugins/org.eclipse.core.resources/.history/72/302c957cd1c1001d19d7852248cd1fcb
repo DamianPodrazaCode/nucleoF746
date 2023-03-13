@@ -2,8 +2,8 @@
 #include <stdbool.h>
 
 //jeszcze należy zmienić ustawienia w CubeMX, Connectivity->FMC->Data = 8 lub 16 bit
-//#define FMC_LCD_8bit
-#define FMC_LCD_16bit
+#define FMC_LCD_8bit
+//#define FMC_LCD_16bit
 
 #ifdef FMC_LCD_8bit
 
@@ -51,4 +51,13 @@ void loop() {
 	__NOP();
 	__NOP();
 	__NOP();
+
+//	if (fAddr) {
+//		lcdAddr = ADDR_CMD;
+//		fAddr = false;
+//	} else {
+//		lcdAddr = ADDR_RAM;
+//		fAddr = true;
+//	}
+//	HAL_SRAM_Write_8b(&hsram1, (uint32_t*)lcdAddr, src, buffSize);
 }
