@@ -1093,3 +1093,108 @@ Finished building: default.size.stdout
  
 Finished building: 003_FMC_LCD_8_16_DMA.list
  
+20:40:46 **** Incremental Build of configuration Debug for project 001_GPIO_speedTest ****
+make -j12 all 
+arm-none-eabi-size   001_GPIO_speedTest.elf 
+   text	   data	    bss	    dec	    hex	filename
+   6920	     20	   1572	   8512	   2140	001_GPIO_speedTest.elf
+Finished building: default.size.stdout
+ 
+20:41:07 **** Incremental Build of configuration Debug for project 001_GPIO_speedTest ****
+make -j12 all 
+arm-none-eabi-size   001_GPIO_speedTest.elf 
+   text	   data	    bss	    dec	    hex	filename
+   6920	     20	   1572	   8512	   2140	001_GPIO_speedTest.elf
+Finished building: default.size.stdout
+ 
+20:41:41 **** Incremental Build of configuration Debug for project 001_GPIO_speedTest ****
+make -j12 all 
+arm-none-eabi-size   001_GPIO_speedTest.elf 
+   text	   data	    bss	    dec	    hex	filename
+   6920	     20	   1572	   8512	   2140	001_GPIO_speedTest.elf
+Finished building: default.size.stdout
+ 
+20:42:33 **** Incremental Build of configuration Debug for project 001_GPIO_speedTest ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F746xx -c -I../Core/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F7_V1.17.0/Drivers/STM32F7xx_HAL_Driver/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F7_V1.17.0/Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -ID:/050_STM32/Repository/STM32Cube_FW_F7_V1.17.0/Drivers/CMSIS/Device/ST/STM32F7xx/Include -ID:/050_STM32/Repository/STM32Cube_FW_F7_V1.17.0/Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "001_GPIO_speedTest.elf" @"objects.list"   -mcpu=cortex-m7 -T"D:\__GitHub\nucleoF746\STM32CubeIDE\001_GPIO_speedTest\STM32F746ZGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="001_GPIO_speedTest.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 001_GPIO_speedTest.elf
+ 
+arm-none-eabi-size   001_GPIO_speedTest.elf 
+arm-none-eabi-objdump -h -S  001_GPIO_speedTest.elf  > "001_GPIO_speedTest.list"
+   text	   data	    bss	    dec	    hex	filename
+   6440	     20	   1572	   8032	   1f60	001_GPIO_speedTest.elf
+Finished building: default.size.stdout
+ 
+Finished building: 001_GPIO_speedTest.list
+ 
+20:43:37 **** Incremental Build of configuration Debug for project 001_GPIO_speedTest ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F746xx -c -I../Core/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F7_V1.17.0/Drivers/STM32F7xx_HAL_Driver/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F7_V1.17.0/Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -ID:/050_STM32/Repository/STM32Cube_FW_F7_V1.17.0/Drivers/CMSIS/Device/ST/STM32F7xx/Include -ID:/050_STM32/Repository/STM32Cube_FW_F7_V1.17.0/Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "001_GPIO_speedTest.elf" @"objects.list"   -mcpu=cortex-m7 -T"D:\__GitHub\nucleoF746\STM32CubeIDE\001_GPIO_speedTest\STM32F746ZGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="001_GPIO_speedTest.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 001_GPIO_speedTest.elf
+ 
+arm-none-eabi-size   001_GPIO_speedTest.elf 
+arm-none-eabi-objdump -h -S  001_GPIO_speedTest.elf  > "001_GPIO_speedTest.list"
+   text	   data	    bss	    dec	    hex	filename
+   6580	     20	   1572	   8172	   1fec	001_GPIO_speedTest.elf
+Finished building: default.size.stdout
+ 
+Finished building: 001_GPIO_speedTest.list
+ 
+20:44:29 **** Incremental Build of configuration Debug for project 001_GPIO_speedTest ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F746xx -c -I../Core/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F7_V1.17.0/Drivers/STM32F7xx_HAL_Driver/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F7_V1.17.0/Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -ID:/050_STM32/Repository/STM32Cube_FW_F7_V1.17.0/Drivers/CMSIS/Device/ST/STM32F7xx/Include -ID:/050_STM32/Repository/STM32Cube_FW_F7_V1.17.0/Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "001_GPIO_speedTest.elf" @"objects.list"   -mcpu=cortex-m7 -T"D:\__GitHub\nucleoF746\STM32CubeIDE\001_GPIO_speedTest\STM32F746ZGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="001_GPIO_speedTest.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 001_GPIO_speedTest.elf
+ 
+arm-none-eabi-size   001_GPIO_speedTest.elf 
+arm-none-eabi-objdump -h -S  001_GPIO_speedTest.elf  > "001_GPIO_speedTest.list"
+   text	   data	    bss	    dec	    hex	filename
+   6712	     20	   1572	   8304	   2070	001_GPIO_speedTest.elf
+Finished building: default.size.stdout
+ 
+Finished building: 001_GPIO_speedTest.list
+ 
+20:45:48 **** Incremental Build of configuration Debug for project 001_GPIO_speedTest ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F746xx -c -I../Core/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F7_V1.17.0/Drivers/STM32F7xx_HAL_Driver/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F7_V1.17.0/Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -ID:/050_STM32/Repository/STM32Cube_FW_F7_V1.17.0/Drivers/CMSIS/Device/ST/STM32F7xx/Include -ID:/050_STM32/Repository/STM32Cube_FW_F7_V1.17.0/Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "001_GPIO_speedTest.elf" @"objects.list"   -mcpu=cortex-m7 -T"D:\__GitHub\nucleoF746\STM32CubeIDE\001_GPIO_speedTest\STM32F746ZGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="001_GPIO_speedTest.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 001_GPIO_speedTest.elf
+ 
+arm-none-eabi-size   001_GPIO_speedTest.elf 
+arm-none-eabi-objdump -h -S  001_GPIO_speedTest.elf  > "001_GPIO_speedTest.list"
+   text	   data	    bss	    dec	    hex	filename
+   6920	     20	   1572	   8512	   2140	001_GPIO_speedTest.elf
+Finished building: default.size.stdout
+ 
+Finished building: 001_GPIO_speedTest.list
+ 
+20:46:27 **** Incremental Build of configuration Debug for project 001_GPIO_speedTest ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F746xx -c -I../Core/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F7_V1.17.0/Drivers/STM32F7xx_HAL_Driver/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F7_V1.17.0/Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -ID:/050_STM32/Repository/STM32Cube_FW_F7_V1.17.0/Drivers/CMSIS/Device/ST/STM32F7xx/Include -ID:/050_STM32/Repository/STM32Cube_FW_F7_V1.17.0/Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "001_GPIO_speedTest.elf" @"objects.list"   -mcpu=cortex-m7 -T"D:\__GitHub\nucleoF746\STM32CubeIDE\001_GPIO_speedTest\STM32F746ZGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="001_GPIO_speedTest.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 001_GPIO_speedTest.elf
+ 
+arm-none-eabi-size   001_GPIO_speedTest.elf 
+arm-none-eabi-objdump -h -S  001_GPIO_speedTest.elf  > "001_GPIO_speedTest.list"
+   text	   data	    bss	    dec	    hex	filename
+   6780	     20	   1572	   8372	   20b4	001_GPIO_speedTest.elf
+Finished building: default.size.stdout
+ 
+Finished building: 001_GPIO_speedTest.list
+ 
+20:47:00 **** Incremental Build of configuration Debug for project 001_GPIO_speedTest ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F746xx -c -I../Core/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F7_V1.17.0/Drivers/STM32F7xx_HAL_Driver/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F7_V1.17.0/Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -ID:/050_STM32/Repository/STM32Cube_FW_F7_V1.17.0/Drivers/CMSIS/Device/ST/STM32F7xx/Include -ID:/050_STM32/Repository/STM32Cube_FW_F7_V1.17.0/Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "001_GPIO_speedTest.elf" @"objects.list"   -mcpu=cortex-m7 -T"D:\__GitHub\nucleoF746\STM32CubeIDE\001_GPIO_speedTest\STM32F746ZGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="001_GPIO_speedTest.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 001_GPIO_speedTest.elf
+ 
+arm-none-eabi-size   001_GPIO_speedTest.elf 
+arm-none-eabi-objdump -h -S  001_GPIO_speedTest.elf  > "001_GPIO_speedTest.list"
+   text	   data	    bss	    dec	    hex	filename
+   6712	     20	   1572	   8304	   2070	001_GPIO_speedTest.elf
+Finished building: default.size.stdout
+ 
+Finished building: 001_GPIO_speedTest.list
+ 
