@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;nucleoF746&apos; to &apos;003_FMC_LCD_8_16_DMA&apos;" description="Rename resource &apos;nucleoF746&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/nucleoF746" name="003_FMC_LCD_8_16_DMA" stamp="1678735476648" updateReferences="true"/>&#x0A;<refactoring comment="Delete resource &apos;003_FMC_LCD_8_16_DMA/nucleoF746 Debug.launch&apos;" deleteContents="false" description="Delete resource &apos;003_FMC_LCD_8_16_DMA/nucleoF746 Debug.launch&apos;" element1="/003_FMC_LCD_8_16_DMA/nucleoF746 Debug.launch" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1678735489014"/>
+</session>

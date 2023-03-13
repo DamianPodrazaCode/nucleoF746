@@ -538,3 +538,9 @@ Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data D:\__GitHub\nucl
 
 !ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2023-03-13 20:20:46.561
 !MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-03-13 20:24:16.874
+!MESSAGE Indexed 'nucleoF746' (24 sources, 84 headers) in 2,34 sec: 5 500 declarations; 30 462 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0,0056%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-03-13 20:24:37.966
+!MESSAGE Indexed '003_FMC_LCD_8_16_DMA' (24 sources, 84 headers) in 0,926 sec: 5 500 declarations; 30 462 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0,0056%)
